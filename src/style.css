@@ -491,7 +491,7 @@ footer a {
 
 @media only screen and (max-width: 768px) {
   #footnote {
-    padding: 60%;
+    padding: 40px;
   }
 }
 
