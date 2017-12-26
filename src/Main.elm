@@ -1,6 +1,6 @@
 module Main exposing (..)
 
-import Html exposing (Html, text, div, h1, h2, h3, img, span, p, a, i, footer)
+import Html exposing (Html, text, div, h1, h2, h3, img, span, p, a, i, footer, br)
 import Html.Attributes exposing (src, id, class, target, href)
 
 ---- MODEL ----
@@ -164,12 +164,12 @@ viewDescription =
                         [ text "$ whoami" ]
                     , p
                         [ class "text-justify" ]
-                        [ text "> I am a software engineer passionate in internet-based "
-                        , text "technology. I am an INFP (Mediator) person, a futurist "
+                        [ text "> Software engineer who passionate in cutting-edge front-end "
+                        , text "technologies. I am an INFP (Mediator) person, a futurist "
                         , text "and a learner by nature, a good listener and sometimes "
-                        , text "a deep thinker. I have a great drive to improve people's "
+                        , text "a deep thinker. I have a goal to improve people's "
                         , text "life by helping them launch their dream, passion, and "
-                        , text "career through education and productivity."
+                        , text "career through education and productivity with technology."
                         ]
                     ]
                 ]
@@ -226,11 +226,27 @@ view model =
             [ id "showcase" ]
             [ h2 [][ text "Experiments;" ]
             , viewShowcaseList model.showcaseList ]
+        , div
+            [ id "footnote"]
+            [ i [ class "icon fa fa-code" ][]
+            , p
+                []
+                [ text "Also side-hustling to create interesting apps. Let's "
+                , a
+                    [ href "mailto:adhywiranatap@gmail.com"
+                    , target "_top"
+                    ]
+                    [ text "get in touch"]
+                , text "!"
+                ]
+            ]
         , footer
             []
             [ span
                 []
-                [ text "copyright by "
+                [ text "made with "
+                , i [ class "fa fa-heart" ][]
+                , text " by "
                 , a
                     [ href "https://adhywiranata.com" ]
                     [ text "Adhy Wiranata" ]
