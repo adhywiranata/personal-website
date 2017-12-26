@@ -489,6 +489,18 @@ footer a {
   padding: 100px;
 }
 
+@media only screen and (max-width: 768px) {
+  #showcase {
+    padding: 60%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #showcase {
+    padding: 20px;
+  }
+}
+
 #footnote p {
   padding: 10px;
   color: #353535;
