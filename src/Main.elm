@@ -109,7 +109,7 @@ viewLeadContent =
                 [ text ", " ]
             , span
                 [ class "headline-title headline-tooltip" ]
-                [ text "Software Engineer" ]
+                [ text "Full Stack Web Developer" ]
             , span
                 []
                 [ text " based in " ]
@@ -118,7 +118,7 @@ viewLeadContent =
                 [ text "Jakarta, Indonesia" ]
             , span
                 []
-                [ text ". I made " ]
+                [ text ". I make " ]
             , span
                 [ class "headline-tech headline-tooltip" ]
                 [ text "Web Apps" ]
@@ -164,10 +164,9 @@ viewDescription =
                         [ text "$ whoami" ]
                     , p
                         [ class "text-justify" ]
-                        [ text "> Software engineer who passionate in cutting-edge front-end "
-                        , text "technologies. I am an INFP (Mediator) person, a futurist "
-                        , text "and a learner by nature, a good listener and sometimes "
-                        , text "a deep thinker. I have a goal to improve people's "
+                        [ text "> Full Stack Web Developer who enjoys tinkering with cutting-edge front-end "
+                        , text "technologies, a futurist and a learner "
+                        , text "with a goal to enhance people's "
                         , text "life by helping them launch their dream, passion, and "
                         , text "career through education and productivity with technology."
                         ]
@@ -231,7 +230,7 @@ view model =
             [ i [ class "icon fa fa-code" ][]
             , p
                 []
-                [ text "Also side-hustling to create interesting apps. Let's "
+                [ text "Available to do side-hustles to build apps. Let's "
                 , a
                     [ href "mailto:adhywiranatap@gmail.com"
                     , target "_top"
