@@ -227,15 +227,21 @@ h2 {
   position: relative;
 }
 
+@media only screen and (max-width: 1024px) {
+  #content {
+    width: 80%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #content {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
 @media only screen and (max-width: 480px) {
   #content {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -393,14 +399,24 @@ h2 {
   text-align: center;
 }
 
-.blue-card {
-  background-color: #52B3D9;
-  color: #FFFFFF;
+@media only screen and (max-width: 768px) {
+  .card-content > a {
+    font-size: 1.5rem;
+  }
+
+  .card-content > p {
+    font-size: 1.2rem;
+  }
 }
 
-.orange-card {
-  background-color: #E9D460;
-  color: #353535;
+@media only screen and (max-width: 480px) {
+  .card-content > a {
+    font-size: 1.3rem;
+  }
+  
+  .card-content > p {
+    font-size: 1rem;
+  }
 }
 
 .profile-picture {
@@ -450,4 +466,8 @@ footer {
 footer a {
   color: inherit;
   text-decoration: none;
+}
+
+.text-justify {
+  text-align: justify !important;
 }

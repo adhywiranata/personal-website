@@ -109,7 +109,7 @@ viewLeadContent =
                 [ text ", " ]
             , span
                 [ class "headline-title headline-tooltip" ]
-                [ text "Full Stack Engineer" ]
+                [ text "Software Engineer" ]
             , span
                 []
                 [ text " based in " ]
@@ -127,7 +127,7 @@ viewLeadContent =
                 [ text " and " ]
             , span
                 [ class "headline-tech headline-tooltip" ]
-                [ text "React Native Mobile Apps" ]
+                [ text "React Native Mobile Apps." ]
             ]
         ]
 
@@ -163,8 +163,8 @@ viewDescription =
                         []
                         [ text "$ whoami" ]
                     , p
-                        []
-                        [ text "> I am a front-end engineer passionate in internet-based "
+                        [ class "text-justify" ]
+                        [ text "> I am a software engineer passionate in internet-based "
                         , text "technology. I am an INFP (Mediator) person, a futurist "
                         , text "and a learner by nature, a good listener and sometimes "
                         , text "a deep thinker. I have a great drive to improve people's "
